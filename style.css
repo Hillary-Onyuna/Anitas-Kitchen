@@ -1,0 +1,223 @@
+.landing {
+
+    background-image: url("https://github.com/MichaelNjoroge254/ANITAS-KITCHEN/blob/gh-pages/landing.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: grey;
+    margin: 5px 0;
+    margin-right: 5px;
+}
+
+.breakfast{
+    background-image: url("https://github.com/MichaelNjoroge254/ANITAS-KITCHEN/blob/gh-pages/images/breakfast.jpg?raw=true");
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width:70% ;
+    font-size: 2em;
+    color: honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lunch{
+    background-image: url("https://github.com/MichaelNjoroge254/ANITAS-KITCHEN/blob/gh-pages/images/lunch.jpg?raw=true");
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.5;
+    width:70% ;
+    font-size: 2em;
+    color: honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dinner{
+    background-image: url("https://github.com/MichaelNjoroge254/ANITAS-KITCHEN/blob/gh-pages/images/dinner.jpg?raw=true");
+    display: flex;
+    justify-content: space-around;
+    width:70% ;
+    font-size: 2em;
+    color: honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+span {
+    display: block;
+    flex-direction: column;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.one {
+    float: left;
+    margin: 80px;
+    padding: 10px;
+    box-shadow: 1px 80px 10px 1px grey;
+}
+
+.two {
+    display: block;
+    justify-content: right;
+    margin: 140px;
+}
+
+.drinks {
+    padding-right: 150px;
+    float: right;
+    display: flex;
+    margin-right: 80px;
+    padding: 5px;
+    box-shadow: 1px 20px 10px 1px grey;
+}
+
+.five {
+    padding: 50px;
+    margin: 140px;
+    display: block;
+    justify-content: left;
+}
+
+.back {
+    background-image: url("foodsBg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+ul {
+
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    padding: 15px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 40px;
+
+}
+
+ul li a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #F15A29;
+    text-decoration: flip;
+}
+
+ul li a:visited {
+    color: #F15A29;
+}
+
+ul li a:active {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.link {
+    padding-top: 40px;
+
+}
+
+.pizza {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 40px 1px 500px 300px rgb(253, 253, 253);
+    box-sizing: content-box;
+    margin-bottom: 100px;
+
+
+}
+
+.eight {
+
+    padding: 20px;
+    text-align: center;
+    color: #F15A29;
+    box-shadow: 1px 2px 30px 20px white;
+}
+
+.nine {
+    padding: 20px;
+    text-align: center;
+    color: #F15A29;
+    box-shadow: 1px 2px 30px 20px white;
+}
+
+.ten {
+    padding: 20px;
+    text-align: center;
+    color: #F15A29;
+    box-shadow: 1px 2px 30px 20px white;
+}
+
+.happy {
+    display: flex;
+    margin-left: 100px;
+    /* padding-bottom: 20px ; */
+    padding: 30px;
+    box-shadow: 5px 10px 30px 3px grey;
+    padding-right: 200px;
+}
+
+.about {
+    float: right;
+    padding-right: 100px;
+}
+
+.person {
+    display: flex;
+}
+
+.email {
+    background-image: url("https://github.com/MichaelNjoroge254/ANITAS-KITCHEN/blob/gh-pages/subscribe.jpg?raw=true");
+    text-align: center;
+    height: 300px;
+
+}
+
+.foot {
+    background-color: tomato;
+    height: 300px;
+}
+
+.twelve {
+    /* display: flex; */
+    text-align: center;
+    justify-content: space-between;
+}
+
+.facebook {
+    display: flex;
+    justify-content: inherit;
+}
